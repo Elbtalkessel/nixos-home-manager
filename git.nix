@@ -5,6 +5,7 @@
       userEmail = "rtfsc@pm.me";
       aliases = {
         m = "merge --no-ff";
+        cdate = "!git add -A && git commit -m \"$(date)\"";
       };
     };
 }
